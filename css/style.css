@@ -109,6 +109,9 @@ img::-moz-selection {
   .scroll-to-top i {
     font-weight: 800; }
 
+.has-blokk-font {
+  font-family: "BLOKK" !important; }
+
 #mainNav {
   background: -moz-linear-gradient(308deg, #d6af2d 0%, #212529 54%, #212529 100%, #212529 100%);
   /* ff3.6+ */
@@ -199,6 +202,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  height: 110vh;
   padding-bottom: 50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -242,10 +246,6 @@ header.masthead {
   text-transform: none; }
 
 .section-about {
-  padding: 10rem;
-  text-align: center;
-  margin-top: -4.2rem;
-  margin-bottom: 50px;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/section-gb-1.jpg");
   background-size: cover;
@@ -257,9 +257,8 @@ header.masthead {
     font-size: 1.2em; }
 
 #portfolio {
-  padding: 7rem;
   text-align: center;
-  margin-top: -4.2rem;
+  margin-top: -5rem;
   background-image: linear-gradient(rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.8)), url("../img/section-gb-0.jpg");
   background-size: cover;
   background-position: center;
@@ -418,13 +417,22 @@ section#contact {
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+.btn-primary.disabled {
+  color: #fff;
+  background-color: #cd9f01 !important;
+  border-color: #cd9f01 !important;
+  cursor: not-allowed; }
+
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #cd9f01 !important;
+  border-color: #cd9f01 !important;
+  cursor: not-allowed; }
+
 .service-box {
   max-width: 400px; }
 
 .section-vision {
-  padding: 7rem;
-  text-align: center;
-  margin-top: -4.2rem;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/section-gb-4.jpg");
   background-size: cover;

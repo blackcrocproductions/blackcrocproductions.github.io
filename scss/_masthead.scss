@@ -6,6 +6,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  height: 110vh;
   padding-bottom: 50px;
   @include background-cover;
   .intro-text {
